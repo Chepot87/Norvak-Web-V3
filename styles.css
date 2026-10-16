@@ -561,10 +561,13 @@ p {
 .visual-pinata-paradise {
   background: #fff4fb;
 }
-.visual-app-rafa > img,
+.visual-app-rafa > img {
+  object-fit: contain;
+  padding: 0;
+}
 .visual-pinata-paradise > img {
   object-fit: contain;
-  padding: 28px;
+  padding: 0;
 }
 .project-kind {
   position: absolute;
