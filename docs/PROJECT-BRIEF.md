@@ -20,21 +20,21 @@ Small-business owners and independent service providers, with a local focus on W
 
 Use first-person copy for an independent developer. Identify client projects, personal work, and previews accurately. Publish no invented testimonials, results, delivery promises, or conversion metrics.
 
-## Planned source layout
+## Source layout
 
 | Path | Responsibility |
 | --- | --- |
 | `index.html` | Home |
-| `pages/work.html` | Work |
-| `pages/services.html` | Services |
-| `pages/about.html` | About |
-| `pages/contact.html` | Contact |
-| `assets/css/styles.css` | Shared styles and responsive layout |
-| `assets/js/main.js` | Navigation, language switching, and other enhancements |
-| `assets/images/` | Approved brand assets and optimized project imagery |
+| `work.html` | Work |
+| `services.html` | Services |
+| `about.html` | About |
+| `contact.html` | Contact |
+| `styles.css` | Shared styles and responsive layout |
+| `script.js` | Navigation, language switching, and other enhancements |
+| `assets/` | Brand assets and project imagery |
 | `assets/fonts/` | Self-hosted fonts and their licenses, if used |
 
-This table is the intended layout; these website files are not part of the repository foundation.
+The existing website is the V3 starting point. Its pages, CSS, JavaScript, and required assets were imported without redesigning them. The flat layout preserves their existing relative paths and keeps direct editing simple.
 
 ## Implementation expectations
 
@@ -49,6 +49,6 @@ This table is the intended layout; these website files are not part of the repos
 
 ## Current scope
 
-Prepare the repository and its documentation first. Build and review the website in the next phase. Choose the deployment host when the new implementation is ready.
+The repository foundation and website source are available. Review and refine the imported site in VS Code, then choose and configure the deployment host.
 
 The separately hosted reference website stays unchanged. Repository setup does not replace or redeploy that site.

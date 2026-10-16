@@ -7,20 +7,25 @@
 - [x] Record the current brand palette and usage principles.
 - [x] Add editor conventions and focused issue/review templates.
 
-## 2. Website implementation
+## 2. Website baseline imported
 
-- [ ] Add the approved brand artwork.
-- [ ] Build shared navigation and responsive page layouts.
-- [ ] Add Home, Work, Services, About, and Contact content.
-- [ ] Implement and review English/Spanish switching.
-- [ ] Add current project imagery and verified links.
-- [ ] Implement and document the inquiry flow.
+- [x] Import the existing transparent N logo renditions and required project imagery.
+- [x] Import shared navigation and responsive page layouts.
+- [x] Add Home, Work, Services, About, and Contact source.
+- [x] Import English/Spanish switching and portfolio filters.
+- [x] Import the message composer and document its actual behavior.
+- [x] Add local preview and editing instructions.
+
+These checks record the source import. Visual refinements and launch review remain below.
 
 ## 3. Review and launch
 
 - [ ] Review desktop and mobile layouts.
+- [ ] Review both languages, portfolio filters, and the inquiry composer in a browser.
+- [ ] Review the unified logo treatment and any further brand changes.
 - [ ] Check keyboard use, focus visibility, contrast, and motion preferences.
-- [ ] Verify navigation, assets, project links, and contact behavior.
+- [x] Verify internal navigation and required asset paths after import.
+- [ ] Recheck external project links and review contact behavior before launch.
 - [ ] Add page metadata, social preview assets, sitemap, and robots instructions.
 - [ ] Configure and verify deployment.
 - [ ] Update the README with setup details, current screenshots, and the verified live URL.

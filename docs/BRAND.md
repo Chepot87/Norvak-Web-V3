@@ -21,7 +21,9 @@ Use charcoal and white for most of the page. Neon accents should support hierarc
 
 Use the approved angular Norvak N consistently across the site and repository branding. The updated direction uses pink and green. A dark smoky treatment can serve as a large brand image; small placements need a rendition that remains legible at their actual display size.
 
-Retain the N’s geometry and proportions. Keep sufficient clear space, avoid stretching, and avoid dropping a bright rectangular background into a dark header. Add the final approved source files in the implementation phase, with names that describe their role.
+Retain the N’s geometry and proportions. Keep sufficient clear space, avoid stretching, and avoid dropping a bright rectangular background into a dark header.
+
+The imported baseline uses `assets/norvak-n-clean.webp` for small header/footer placements and its transparent PNG for the favicon. `assets/norvak-n-textured.webp` is used in large Home/About placements. These are the existing site’s renditions; review the unified logo treatment as part of the next design pass.
 
 ## Typography and imagery
 
