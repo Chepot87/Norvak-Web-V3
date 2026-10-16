@@ -1,0 +1,31 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and caches
+node_modules/
+.cache/
+.parcel-cache/
+.npm/
+
+# Generated output, reports, and local archives
+dist/
+build/
+coverage/
+*.log
+*.zip
+*.tar.gz
+
+# Local hosting metadata and editor state
+.openai/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

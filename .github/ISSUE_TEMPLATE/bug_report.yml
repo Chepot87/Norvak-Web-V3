@@ -1,0 +1,27 @@
+name: Bug report
+description: Report an issue in the Norvak website.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the page and the steps needed to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows, Safari on iPhone, etc.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or notes
+      description: Remove personal information before attaching a screenshot.

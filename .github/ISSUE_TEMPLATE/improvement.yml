@@ -1,0 +1,22 @@
+name: Improvement
+description: Propose a focused change to the website or documentation.
+title: "[Improvement]: "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should this change help a visitor or maintainer do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: How will we verify it?
+      description: Describe the expected result or acceptance criteria.
