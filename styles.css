@@ -552,16 +552,19 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.visual-country > img,
 .visual-icqa > img {
   object-position: top;
 }
-.visual-lovely {
-  background: #eccce5;
+.visual-app-rafa {
+  background: #eef6fd;
 }
-.visual-lovely > img {
+.visual-pinata-paradise {
+  background: #fff4fb;
+}
+.visual-app-rafa > img,
+.visual-pinata-paradise > img {
   object-fit: contain;
-  padding: 20px;
+  padding: 28px;
 }
 .project-kind {
   position: absolute;

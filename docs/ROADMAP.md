@@ -15,6 +15,7 @@
 - [x] Import English/Spanish switching and portfolio filters.
 - [x] Import the message composer and document its actual behavior.
 - [x] Add local preview and editing instructions.
+- [x] Replace Lovely Dog Care and Country Pizza with App Rafa and Piñata Paradise, including bilingual copy and original project assets.
 
 These checks record the source import. Visual refinements and launch review remain below.
 

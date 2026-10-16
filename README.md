@@ -83,7 +83,8 @@ Page canonical URLs and social metadata currently reference the existing preview
 
 - [Respiro y Renuevo](https://github.com/Chepot87/Respiro-y-Renuevo) — a bilingual wellness website rebuild.
 - [Red Muse Nail Studio](https://github.com/Chepot87/red-muse-v2) — a nail studio website with a visual portfolio.
-- [Lovely Dog Care](https://lovelydogcare.netlify.app/) — a local pet care website.
+- [App Rafa](https://github.com/Chepot87/App-Rafa) — a Spanish-language vocabulary app with adult-guided activities.
+- [Piñata Paradise](https://github.com/Chepot87/pinata-paradise) — a custom piñata website with a product gallery and Instagram contact.
 
 ## Author and contact
 
