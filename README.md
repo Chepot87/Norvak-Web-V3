@@ -10,11 +10,11 @@ This repository contains the editable source for the third version of my portfol
 
 ## Project status
 
-**Website source available — repository deployment pending.**
+**Live on GitHub Pages: https://chepot87.github.io/Norvak-Web-V3/**
 
 The existing five-page Norvak website has been imported as the starting point for V3, including its styles, bilingual interactions, project images, transparent logo assets, and self-hosted font. Further design changes can now be made directly in this repository.
 
-The [existing Norvak preview](https://norvak-web-v2.rareeel6.chatgpt.site) is hosted separately. Pushing to this repository does not update that preview. No GitHub Pages or other deployment has been configured for this repository yet.
+V3 is the primary client-facing website. The earlier ChatGPT-hosted preview is a separate deployment and is no longer the address to promote. Norvak-Links should send visitors to the GitHub Pages address above.
 
 ## Included features
 
@@ -62,7 +62,7 @@ cd Norvak-Web-V3
 code .
 ```
 
-In VS Code, install the recommended **Live Server** extension, right-click `index.html`, and choose **Open with Live Server**. You can also open `index.html` directly in a browser; a local server is recommended for consistent behavior. Deployment instructions will be added when a host is configured and verified.
+In VS Code, install the recommended **Live Server** extension, right-click `index.html`, and choose **Open with Live Server**. You can also open `index.html` directly in a browser; a local server is recommended for consistent behavior. The site is deployed on GitHub Pages from this repository. After pushing, wait for the Pages deployment to finish and verify the affected live pages.
 
 ## Editing guide
 
@@ -77,14 +77,22 @@ Language preference is stored locally in the visitor’s browser. This static si
 
 Before pushing changes, check internal links and asset paths, run `node --check script.js` if Node.js is available, and review the affected interactions. Check desktop and mobile layouts, keyboard navigation, and both languages before launch. A fresh visual review and external delivery check remain outstanding; see the [roadmap](docs/ROADMAP.md).
 
-Page canonical URLs and social metadata currently reference the existing preview. Update those URLs when a new deployment address is confirmed.
+Page canonical URLs and social metadata use the V3 GitHub Pages address. Keep them aligned if the production domain changes.
 
 ## Selected projects
 
 - [Respiro y Renuevo](https://github.com/Chepot87/Respiro-y-Renuevo) — a bilingual wellness website rebuild.
 - [Red Muse Nail Studio](https://github.com/Chepot87/red-muse-v2) — a nail studio website with a visual portfolio.
-- [App Rafa](https://github.com/Chepot87/App-Rafa) — a Spanish-language vocabulary app with adult-guided activities.
+- [App Rafa](https://github.com/Chepot87/App-Rafa) — a vocabulary app in Spanish, English, and Brazilian Portuguese, with adult-guided actions and sentence-building activities.
 - [Piñata Paradise](https://github.com/Chepot87/pinata-paradise) — a custom piñata website with a product gallery and Instagram contact.
+
+## Keeping the portfolio current
+
+- Feature Red Muse V2, App Rafa, and Piñata Paradise on Home; keep Respiro clearly labeled as a development preview on Work.
+- Before updating a project summary, read its current source and README, check the published demo, and preserve both English and Spanish copy.
+- Link to one selected version per project; do not promote legacy Norvak versions or duplicate demos as separate projects.
+- Recheck booking and contact configuration before describing a demo as a live business service.
+- This is a manual maintenance checklist; project summaries do not update automatically.
 
 ## Author and contact
 
