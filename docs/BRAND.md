@@ -4,7 +4,7 @@
 
 **Name:** Norvak Web  
 **Voice:** Direct, personal, creative, and easy to understand.  
-**Tagline:** Modern, functional websites that load fast and feel good.
+**Tagline:** Beautiful. Simple. Effective.
 
 ## Palette
 
@@ -30,3 +30,13 @@ The imported baseline uses `assets/norvak-n-clean.webp` for small header/footer 
 Use a clear sans-serif family with a consistent heading hierarchy and comfortable body copy. A geometric family such as the Manrope used in the reference version is a starting point, subject to review in the new layout. Include font licenses when self-hosting.
 
 Use real project imagery or verified screenshots. Label previews and illustrative project imagery accurately. Keep backgrounds minimal, with enough space for the work and copy to stand out.
+
+## Brand promise
+
+Premium websites built for a world that moves fast. Norvak creates sites that look polished, feel effortless, and get people straight to what matters. Clear navigation, easy access, fast loading, and a clear next action guide every design decision.
+
+Respect the visitor’s time: concise copy, purposeful sections, readable typography, generous spacing, and restrained motion. Every element should help someone understand the business or take the next step. Avoid clutter and unsupported claims about results or delivery speed.
+
+**Spanish tagline:** Diseño atractivo. Simple. Eficaz.
+
+**Pitch:** People have no time to waste. Norvak builds premium websites that get straight to the point: beautiful design, effortless access, and a clear path to action.
