@@ -1984,3 +1984,55 @@ h2 {
     width: 112px;
   }
 }
+
+/* Page backgrounds: one restrained neon glow per section. */
+body[data-page="index.html"] {
+  background:
+    radial-gradient(
+      ellipse 75% 700px at 96% 18%,
+      rgba(47, 255, 107, 0.34) 0,
+      rgba(47, 255, 107, 0.14) 35%,
+      transparent 72%
+    ),
+    var(--bg);
+}
+body[data-page="work.html"] {
+  background:
+    radial-gradient(
+      ellipse 75% 700px at 96% 18%,
+      rgba(255, 47, 146, 0.34) 0,
+      rgba(255, 47, 146, 0.14) 35%,
+      transparent 72%
+    ),
+    var(--bg);
+}
+body[data-page="services.html"] {
+  background:
+    radial-gradient(
+      ellipse 75% 700px at 96% 18%,
+      rgba(47, 255, 107, 0.34) 0,
+      rgba(47, 255, 107, 0.14) 35%,
+      transparent 72%
+    ),
+    var(--bg);
+}
+body[data-page="about.html"] {
+  background:
+    radial-gradient(
+      ellipse 75% 700px at 96% 18%,
+      rgba(80, 220, 255, 0.34) 0,
+      rgba(80, 220, 255, 0.14) 35%,
+      transparent 72%
+    ),
+    var(--bg);
+}
+body[data-page="contact.html"] {
+  background:
+    radial-gradient(
+      ellipse 75% 700px at 96% 18%,
+      rgba(255, 179, 138, 0.38) 0,
+      rgba(255, 140, 110, 0.16) 35%,
+      transparent 72%
+    ),
+    var(--bg);
+}
