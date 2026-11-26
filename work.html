@@ -42,6 +42,27 @@
       crossorigin
     />
     <link rel="stylesheet" href="styles.css?v=20261125-covers-v2" />
+    <style>
+      /* Piñata Paradise: original brand assets, scoped to this portfolio card. */
+      #pinata-paradise .visual-pinata-paradise {
+        display: grid;
+        place-items: center;
+        isolation: isolate;
+        background:
+          linear-gradient(135deg, rgba(255,249,251,.18), rgba(255,249,251,.12)),
+          url("https://chepot87.github.io/pinata-paradise/img/background.png") center / cover no-repeat,
+          #fff4fb;
+        border-color: #f47eae45;
+      }
+      #pinata-paradise .visual-pinata-paradise > img {
+        width: min(78%, 330px);
+        height: 76%;
+        padding: 0;
+        object-fit: contain;
+        filter: drop-shadow(0 8px 18px rgba(79, 34, 63, .15));
+      }
+      #pinata-paradise .project-kind { z-index: 1; }
+    </style>
     <script src="script.js" defer></script>
   </head>
   <body
@@ -439,12 +460,10 @@
           <article class="project-card" id="pinata-paradise" data-category="business">
             <div class="project-visual visual-pinata-paradise">
               <img
-                src="assets/pinata-paradise-preview.png"
-                alt="Screenshot of the Piñata Paradise website featuring its Stitch piñata"
-                data-alt-en="Screenshot of the Piñata Paradise website featuring its Stitch piñata"
-                data-alt-es="Captura de la web de Piñata Paradise con su piñata de Stitch"
-                width="925"
-                height="893"
+                src="https://chepot87.github.io/pinata-paradise/img/pinata-paradise-logo.png"
+                alt="Piñata Paradise logo"
+                data-alt-en="Piñata Paradise logo"
+                data-alt-es="Logo de Piñata Paradise"
                 loading="lazy"
                 decoding="async"
               />
@@ -467,7 +486,7 @@
                   <span data-en="View code" data-es="Ver código">View code</span><span aria-hidden="true">↗</span>
                 </a>
               </div>
-              <p class="caption"><span data-en="Website screenshot; explore the project to see the full site." data-es="Captura del sitio; explora el proyecto para ver la web completa.">Website screenshot; explore the project to see the full site.</span></p>
+              <p class="caption"><span data-en="Brand cover featuring the original Piñata Paradise logo and background." data-es="Portada con el logo y el fondo originales de Piñata Paradise.">Brand cover featuring the original Piñata Paradise logo and background.</span></p>
             </div>
           </article>
           <article class="project-card" id="icqa" data-category="tools">
