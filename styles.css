@@ -569,6 +569,39 @@ p {
   object-fit: contain;
   padding: 0;
 }
+.visual-my-day {
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse at top right, #c9ff4330, transparent 70%), #141817;
+}
+.my-day-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 26px;
+  color: #f2f3ed;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 1;
+}
+.my-day-icon {
+  display: grid;
+  place-items: center;
+  width: 1.3em;
+  height: 1.3em;
+  flex: none;
+  background: #c9ff43;
+  color: #141817;
+  border-radius: 0.25em;
+}
+.my-day-brand small {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.875rem;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+}
 .project-kind {
   position: absolute;
   top: 18px;
