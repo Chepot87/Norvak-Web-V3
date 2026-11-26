@@ -569,6 +569,58 @@ p {
   object-fit: contain;
   padding: 0;
 }
+.visual-country-pizza {
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 12% 40%, #ff7a0036, transparent 58%),
+    radial-gradient(ellipse at 90% 35%, #1688ff3d, transparent 55%),
+    radial-gradient(ellipse at 50% 110%, #08695a40, transparent 60%),
+    #080c12;
+  border-color: #e49b4045;
+  box-shadow: inset 0 0 45px #0009;
+}
+.visual-country-pizza::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid #ffffff14;
+  border-radius: calc(var(--radius) - 8px);
+  background: repeating-linear-gradient(
+    135deg,
+    transparent 0 44px,
+    #ffffff03 44px 45px
+  );
+}
+.visual-country-pizza > img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 48%;
+  width: min(100%, 440px);
+  height: auto;
+  max-width: none;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 16px #ff7a0020) drop-shadow(0 0 30px #1688ff20);
+}
+.project-card:hover .visual-country-pizza > img {
+  transform: translate(-50%, -50%) scale(1.025);
+}
+.visual-country-pizza .project-kind {
+  z-index: 2;
+}
+.country-preview-meta {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  color: #e9c48f;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
 .visual-my-day {
   display: grid;
   place-items: center;
