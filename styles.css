@@ -556,13 +556,13 @@ p {
   object-position: top;
 }
 .visual-app-rafa {
-  background: #eef6fd;
+  background: #071a3d;
 }
 .visual-pinata-paradise {
   background: #fff4fb;
 }
 .visual-app-rafa > img {
-  object-fit: contain;
+  object-fit: cover;
   padding: 0;
 }
 .visual-pinata-paradise > img {
@@ -595,8 +595,8 @@ p {
   position: absolute;
   z-index: 1;
   left: 50%;
-  top: 48%;
-  width: min(100%, 440px);
+  top: 50%;
+  width: min(100%, 400px);
   height: auto;
   max-width: none;
   object-fit: contain;
