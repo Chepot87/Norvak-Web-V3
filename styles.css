@@ -2121,3 +2121,52 @@ body[data-page="contact.html"] {
     ),
     var(--bg);
 }
+
+/* Country Pizza: feathered focal layer adds depth without a hard cutout. */
+#country-pizza .country-neon-cover {
+  display: block;
+  isolation: isolate;
+  background: #100909;
+  border-color: #e49b4045;
+  cursor: pointer;
+}
+#country-pizza .country-neon-cover::before { content: none; }
+#country-pizza .country-neon-cover > .country-cover-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  transform: none;
+  filter: none;
+  transition: filter .45s ease;
+}
+#country-pizza .country-cover-lift {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: url('assets/country-pizza-neon-cover.webp') center / cover no-repeat;
+  -webkit-mask-image: radial-gradient(ellipse 58% 83% at 50% 49%, #000 59%, transparent 96%);
+  mask-image: radial-gradient(ellipse 58% 83% at 50% 49%, #000 59%, transparent 96%);
+  opacity: 0;
+  transform: scale(1);
+  transition: transform .45s cubic-bezier(.2,.75,.2,1), opacity .35s ease, filter .45s ease;
+}
+#country-pizza .country-neon-cover:is(:hover,:focus-visible) > .country-cover-base {
+  filter: brightness(.77) saturate(.92);
+}
+#country-pizza .country-neon-cover:is(:hover,:focus-visible) .country-cover-lift {
+  opacity: 1;
+  transform: scale(1.065) translateY(-1%);
+  filter: brightness(1.13) saturate(1.08);
+}
+#country-pizza .country-neon-cover .project-kind { z-index: 2; }
+#country-pizza .country-neon-cover:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  #country-pizza .country-neon-cover > .country-cover-base,
+  #country-pizza .country-cover-lift { transition: none; }
+  #country-pizza .country-neon-cover:is(:hover,:focus-visible) .country-cover-lift { transform: none; }
+}
