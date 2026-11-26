@@ -2170,3 +2170,51 @@ body[data-page="contact.html"] {
   #country-pizza .country-cover-lift { transition: none; }
   #country-pizza .country-neon-cover:is(:hover,:focus-visible) .country-cover-lift { transform: none; }
 }
+
+/* Lovely Dog Care: watercolor cover with a feathered floating badge. */
+#lovely-dog-care .lovely-brand-cover {
+  display: block;
+  isolation: isolate;
+  background: #fff5e9;
+  border-color: #d4ac933f;
+  cursor: pointer;
+}
+#lovely-dog-care .lovely-brand-cover > .lovely-cover-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  transition: filter .4s ease;
+}
+#lovely-dog-care .lovely-brand-cover {
+  background: url('assets/lovely-dog-care-cover.webp') center / cover no-repeat;
+}
+#lovely-dog-care .lovely-brand-cover > .lovely-cover-base { object-fit: cover; }
+#lovely-dog-care .lovely-cover-lift {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: url('assets/lovely-dog-care-cover.webp') center / cover no-repeat;
+  -webkit-mask-image: radial-gradient(ellipse 63% 94% at 49.6% 50%, #000 49%, transparent 74%);
+  mask-image: radial-gradient(ellipse 63% 94% at 49.6% 50%, #000 49%, transparent 74%);
+  opacity: 0;
+  transform: scale(1);
+  transition: transform .45s cubic-bezier(.2,.75,.2,1), opacity .3s ease, filter .4s ease;
+}
+#lovely-dog-care .lovely-brand-cover:is(:hover,:focus-visible) > .lovely-cover-base { filter: brightness(.93) saturate(.88); }
+#lovely-dog-care .lovely-brand-cover:is(:hover,:focus-visible) .lovely-cover-lift {
+  opacity: 1;
+  transform: scale(1.055) translateY(-1%);
+  filter: brightness(1.03) drop-shadow(0 5px 9px #765c4830);
+}
+#lovely-dog-care .lovely-brand-cover .project-kind { z-index: 2; }
+#lovely-dog-care .lovely-brand-cover:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  #lovely-dog-care .lovely-brand-cover > .lovely-cover-base,
+  #lovely-dog-care .lovely-cover-lift { transition: none; }
+  #lovely-dog-care .lovely-brand-cover:is(:hover,:focus-visible) .lovely-cover-lift { transform: none; }
+}
