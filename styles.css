@@ -2218,3 +2218,48 @@ body[data-page="contact.html"] {
   #lovely-dog-care .lovely-cover-lift { transition: none; }
   #lovely-dog-care .lovely-brand-cover:is(:hover,:focus-visible) .lovely-cover-lift { transform: none; }
 }
+
+/* Inventory Audit: cinematic brand cover with a soft foreground lift. */
+#icqa .audit-brand-cover {
+  display: block;
+  isolation: isolate;
+  background: #071417;
+  border-color: #38f47740;
+  cursor: pointer;
+}
+#icqa .audit-brand-cover > .audit-cover-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: none;
+  filter: none;
+  transition: filter .4s ease;
+}
+#icqa .audit-cover-lift {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: url('assets/inventory-audit-cover.webp') center / cover no-repeat;
+  -webkit-mask-image: radial-gradient(ellipse 70% 93% at 50% 49%, #000 50%, transparent 84%);
+  mask-image: radial-gradient(ellipse 70% 93% at 50% 49%, #000 50%, transparent 84%);
+  opacity: 0;
+  transform: scale(1);
+  transition: transform .45s cubic-bezier(.2,.75,.2,1), opacity .3s ease, filter .4s ease;
+}
+#icqa .audit-brand-cover:is(:hover,:focus-visible) > .audit-cover-base { filter: brightness(.76) saturate(.9); }
+#icqa .audit-brand-cover:is(:hover,:focus-visible) .audit-cover-lift {
+  opacity: 1;
+  transform: scale(1.055) translateY(-1%);
+  filter: brightness(1.12) saturate(1.08);
+}
+#icqa .audit-brand-cover .project-kind { z-index: 2; }
+#icqa .audit-brand-cover:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  #icqa .audit-brand-cover > .audit-cover-base,
+  #icqa .audit-cover-lift { transition: none; }
+  #icqa .audit-brand-cover:is(:hover,:focus-visible) .audit-cover-lift { transform: none; }
+}
